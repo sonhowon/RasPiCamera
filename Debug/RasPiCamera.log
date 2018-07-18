@@ -1,0 +1,45 @@
+﻿빌드 시작: 2016-07-04 오후 7:59:20
+     1>2 노드의 "C:\Users\SonHoWon\Desktop\RasPiCamera\RasPiCamera\RasPiCamera.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\RasPiCamera.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\RasPiCamera.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FIstdafx.h /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\sonhowon\desktop\raspicamera\raspicamera\raspi_camera.h(7): warning C4129: 'S' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RasPiCamera.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FIstdafx.h /analyze- /errorReport:prompt raspi_camera.cpp raspi_cmain.cpp
+         raspi_cmain.cpp
+     1>c:\program files\opencv2.3.1\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv2.3.1\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv2.3.1\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\program files\opencv2.3.1\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv2.3.1\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\opencv2.3.1\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': deprecated로 선언되었습니다.
+                 c:\program files\opencv2.3.1\build\include\opencv2\flann\flann.hpp(278) : 컴파일 중인 클래스 템플릿 인스턴스화 'cv::flann::Index_<T>'에 대한 참조를 확인하십시오.
+         raspi_camera.cpp
+         코드를 생성하고 있습니다...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RasPiCamera.exe.embed.manifest.res" Debug\RasPiCamera_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.exe" /INCREMENTAL /NOLOGO opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib Ws2_32.lib Mswsock.lib AdvApi32.lib opencv_gpu231d.lib opencv_haartraining_engined.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RasPiCamera.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.lib" /MACHINE:X86 Debug\RasPiCamera.exe.embed.manifest.res
+         Debug\raspi_camera.obj
+         Debug\raspi_cmain.obj
+         Debug\stdafx.obj
+       Manifest:
+         "Debug\RasPiCamera.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RasPiCamera.exe.embed.manifest" /manifest Debug\RasPiCamera.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RasPiCamera.exe.embed.manifest.res" Debug\RasPiCamera_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.exe" /INCREMENTAL /NOLOGO opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib Ws2_32.lib Mswsock.lib AdvApi32.lib opencv_gpu231d.lib opencv_haartraining_engined.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RasPiCamera.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.lib" /MACHINE:X86 Debug\RasPiCamera.exe.embed.manifest.res
+         Debug\raspi_camera.obj
+         Debug\raspi_cmain.obj
+         Debug\stdafx.obj
+         RasPiCamera.vcxproj -> C:\Users\SonHoWon\Desktop\RasPiCamera\Debug\RasPiCamera.exe
+       FinalizeBuildStatus:
+         "Debug\RasPiCamera.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\RasPiCamera.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\SonHoWon\Desktop\RasPiCamera\RasPiCamera\RasPiCamera.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:20.59
