@@ -36,6 +36,7 @@ void OnMouseEvent(int event, int x, int y, int flags, void* param) {
       printf("B = %5f, G = %5f, R = %5f\n\n", blue, green, red);
       printf("Y = %5f, Cb = %5f, Cr = %5f\n\n",
              luminance, chroma_blue, chroma_red);
+      printf("Test sourcetree\n\n");
       return;
     default:
       return;
