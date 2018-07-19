@@ -4,6 +4,7 @@
 #define RASPICAMERA_RASPI_CAMERA_H_
 
 // The name of the camera configuration file. Absolute path recommended.
+// The name of the camera configuration file. Absolute path recommended.
 static const LPCTSTR kConfFile = TEXT("C:\\Users\\\SonHoWon\\Desktop\\RasPiCamera\\camera.ini");
 // Takes two format arguments. The function name and the error code.
 static const char* kErrorMessage = "%s failed with error: 0x%08x\n";

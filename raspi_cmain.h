@@ -4,6 +4,7 @@
 #define RASPICAMERA_RASPI_CMAIN_H_
 
 // struct used to store information about pixels of a certain color.
+// struct used to store information about pixels of a certain color.
 struct ColorDetect {
   // number of pixels of the corresponding color
   int count;
